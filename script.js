@@ -34,7 +34,7 @@ function capitalize(word) {
 }
 
 function weatherRequest(cityName) {
-    const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=${apiKey}&units=metric&lang=pt_br`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&APPID=${apiKey}&units=metric&lang=pt_br`;
 
     fetch(apiUrl)
         .then(response => response.json())

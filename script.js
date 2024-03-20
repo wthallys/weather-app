@@ -10,7 +10,7 @@ const description = document.getElementById("description");
 const wind = document.getElementById("wind");
 const direction = document.getElementById("direction");
 
-const apiKey = "_api_key_here_";
+const apiKey = "89508ecfc024a2bf815555cb5748aafa";
 
 document.getElementById("getWeatherBtn").addEventListener("click", handleWeatherRequest);
 
